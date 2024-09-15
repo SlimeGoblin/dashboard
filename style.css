@@ -74,11 +74,42 @@
 .topleftHeader, .btmleftHeader{
     display: flex;
     padding-left: 30px;
-    padding-top: 30px;
+}
+
+.topleftHeader, .toprightHeader{
+    padding-top: 10px;
+}
+
+#searchBar{
+    height: 70%;;
+    width: 90%;
+    border-radius: 30px;
+    background-color: #FFF4EA;
+}
+
+#pfp{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.bigLogo{
+    background-color: pink;
+    height: 70px;
+    border-radius: 70px;
+    margin-right: 20px;
+}
+
+.welcome{
+    font-weight: bold;
+}
+
+#welcomeBig{
+    font-size: 22px;
 }
 
 .topleftHeader div, .btmleftHeader div{
     margin-right:10px;
+    align-self: center;
 }
 
 .toprightHeader, .btmrightHeader{
@@ -132,11 +163,13 @@
     text-align: left;
 }
 
-.trendingBar img{
+.trendingBar img, .toprightHeader #pfp{
     background-color: pink;
-    height: 50px;;
-    border-radius: 70px;;
+    height: 50px;
+    border-radius: 70px;
 }
+
+
 
 #trendingName{
     display: grid;
@@ -152,10 +185,11 @@
 
 .card{
     background-color: white;
-    border-left:5px solid #C96868;
+    border-left:10px solid #FADFA1;
     border-radius: 20px;
     display: grid;
     grid-template-rows: repeat(2, 1fr);
+    box-shadow: 2px 2px 10px;
 }
 
 .smallLogoContainer{
@@ -195,7 +229,7 @@
 
 }
 
-.announcementTitle, #cardTitle{
+.announcementTitle, #cardTitle, #id{
     font-size: 18px;
     font-weight: 500;
 }
@@ -218,8 +252,11 @@
 
 
 button{
-    background-color:#64748b;
-    padding: 10px;
-    width: 40%;
-    border-radius: 10px;;
+    background-color: #7EACB5;
+    width: 30%;
+    height: 60%;
+    border-radius: 50px;;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
 }
