@@ -6,6 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Admin Dashboard</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
 </head>
 <body>
     
@@ -15,63 +20,85 @@
 <div class ="container">
 
     <div class="sidebar">  
-        <div class="logo"></div>
-        <div class="dashboard">Dashboard</div>
+
+        <div class="sidebarContent">
+
+        <div class="sidebarTop">
+        <img src="palette-swatch-outline.svg" class="Logo">
+        <div class="dashboard" id="sideLink">Dashboard</div>
+        </div>
         
-        <div class="homeLogo"></div>
-        <div class="home">Home</div>
+        <div class="sidebarMiddle">
+        <img src="home-account.svg" class="Logo">
+        <div class="home" id="sideLink">Home</div>
 
-        <div class="profileLogo"></div>
-        <div class="profile">Profile</div>
+        <img src="card.svg" class="Logo">
+        <div class="profile" id="sideLink">Profile</div>
 
-        <div class="messageLogo"></div>
-        <div class="messages">Messages</div>
+        <img src="message.svg" class="Logo">
+        <div class="messages" id="sideLink">Messages</div>
 
-        <div class="historyLogo"></div>
-       <div class="history">History</div>
+        <img src="clock.svg" class="Logo">
+       <div class="history" id="sideLink">History</div>
 
-        <div class="taskLogo"></div>
-        <div class="tasks">Tasks</div>
+        <img src="tasks.svg" class="Logo">
+        <div class="tasks" id="sideLink">Tasks</div>
 
-        <div class="communitiesLogo"> </div>
-        <div class="communities">Communities</div>
+        <img src="communities.svg" class="Logo">
+        <div class="communities" id="sideLink">Communities</div>
+        </div>
 
-        <div class="settingsLogo"></div>
-        <div class="settings">Settings</div>
+        <div class="sidebarBottom">
+        <img src="settings.svg" class="Logo">
+        <div class="settings" id="sideLink">Settings</div>
 
-        <div class="supportLogo"></div>
-        <div class="support">Support</div>
+        <img src="support.svg" class="Logo">
+        <div class="support" id="sideLink">Support</div>
 
-        <div class="privacyLogo"></div>
-        <div class="Privacy">Privacy</div>
+        <img src="privacy.svg" class="Logo">
+        <div class="Privacy" id="sideLink">Privacy</div>
+        </div>
+
+    </div>
 
     </div>
 
     <div class="header">
 
-        <div class="searchLogo"></div>
-        <div class="searchBar"></div>
-        <div class="notoficationLogo"></div>
-        <div class="pfp" id="pfp"></div>
+            <div class="topleftHeader">
+        <div class="searchLogo">Logo</div>
+        <div class="searchBar">seeeeeeeeeeeeeeeeeeeaaaaaaaaaaaaaaarrrrrrrrrrchhhhhh</div>
+        </div>
+
+            <div class="toprightHeader">
+        <div class="notoficationLogo">Logo</div>
+        <div class="pfp" id="pfp">Image</div>
         <div class="id" id="id">Laurel Smith</div>
-        <div class="welcomePfp"></div>
+        </div>
+
+            <div class="btmleftHeader">
+        <div class="welcomePfp">BigImage</div>
         <div class="welcome">Hi there,
             <div class="userName">Laurel Smith (@LaurelAnne94)</div>
         </div>
+        </div>
+
+            <div class="btmrightHeader">
         <button type="button" id="new">New</button>
         <button type="button" id="upload">Upload</button>
         <button type="share" id="share">Share</button>
+        </div>
         
     </div>
 
 
     <div class="projects">
 
-        
+        <div class="titleCard">Your Projects</div>
+        <div class="rightbarTitle">Announcements</div>
+
 
         <div class="cardContainer">
-
-            <div>Your Projects</div>
 
         <div class="card" id="card1">
             <div id="cardTitle">Super Cool Project</div>
@@ -84,15 +111,14 @@
         <div class="card" id="card2">
             <div id="cardTitle">Less Cool Project</div>
             <div id="cardText">Lorem ipsum dolor sit amet consectetur adipisicing
-                 elit. Vel doloribus minima quisquam odit modi, hic cumque quo harum facilis impedit recu
-                 sandae reiciendis expedita quas officiis rem neque quasi numquam explicabo!
+         
                 </div>
         </div>
 
         <div class="card" id="card3">
             <div id="cardTitle">Impossible Project</div>
             <div id="cardText">Lorem ipsum dolor sit amet consectetur adipisicing
-                 elit. Vel doloribus minima quisquam odit modi, hic cumque quo harum facilis impedit recu
+                 pedit recu
                  sandae reiciendis expedita quas officiis rem neque quasi numquam explicabo!
                 </div>
         </div>
@@ -109,14 +135,14 @@
             <div id="cardTitle">Ad Blocker</div>
             <div id="cardText">Lorem ipsum dolor sit amet consectetur adipisicing
                  elit. Vel doloribus minima quisquam odit modi, hic cumque quo harum facilis impedit recu
-                 sandae reiciendis expedita quas officiis rem neque quasi numquam explicabo!
+                 sandae reiciendis expedita qua numquam explicabo!
                 </div>
         </div>
 
         <div class="card" id="card6">
             <div id="cardTitle">IMoney Makers</div>
             <div id="cardText">Lorem ipsum dolor sit amet consectetur adipisicing
-                 elit. Vel doloribus minima quisquam odit modi, hic cumque quo harum facilis impedit recu
+                 elit. Vel doloribit recu
                  sandae reiciendis expedita quas officiis rem neque quasi numquam explicabo!
                 </div>
         </div>
@@ -124,31 +150,59 @@
         </div>
 
 
-   
+
 
     <div class="rightBar">
 
-        <div class="rightbarTitle">Announcements</div>
+
+        <div class="rightbarTop">
+
+
         
+        <div class="announcementContainer" id="rightContain">
         <div class="announcementBar">
+            <img src="abjad-arabic.svg" class="Logo">
             <div class="announcement1">Site Maintenance</div>
             <div class="announcement2">Community Share Day</div>
             <div class="announcement3">Updated Privacy Policy</div>
         </div>
-
-        <div class="rightbarTitle">Trending</div>
-
-        <div class="trendingBar">
-            <div class="trending1"></div>
-            <div class="trending2"></div>
-            <div class="trending3"></div>
-            <div class="trending4"></div>
         </div>
 
+        </div>
+
+        <div class="rightbarBottom">
+
+        <div class="rightbarTitle2">Trending</div>
+
+        <div class="trendingBar">
+            <img src="cat.svg" alt="cat SVG" class="trending">
+            <div class="trending" id="trendingName">Laurel
+                <div>@LaurelSmith</div>
+            </div>
+
+            <img src="cat.svg" class="trending">
+            <div class="trending" id="trendingName">Anne
+                <div>@LaurelSmith</div>
+            </div>
+
+            <img src="cat.svg" class="trending">
+            <div class="trending" id="trendingName">Smith
+                <div>@LaurelSmith</div>
+            </div>
+
+            <img src="cat.svg" class="trending">
+            <div class="trending" id="trendingName">Lala
+                <div>@LaurelSmith</div>
+            </div>
+
+        </div>
+        
+
+        </div>
+
+
 </div>
-
-
-    </div>
+</div>
 
 
 
